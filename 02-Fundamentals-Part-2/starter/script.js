@@ -6,12 +6,29 @@
 // const age3 = calcAge3(1993)
 // console.log(age3)
 
+// class 35
+// const yearsUntilRetirement = (birthYeah, firstName) =>{
+// 	const age = 2000- birthYeah
+// 	const retirement = 65 - age
+// 	// return retirement
+// 	return `${firstName} retires in ${retirement} years `
+// }
 
-const yearsUntilRetirement = (birthYeah, firstName) =>{
-	const age = 2000- birthYeah
-	const retirement = 65 - age
-	// return retirement
-	return `${firstName} retires in ${retirement} years `
+// console.log(yearsUntilRetirement(3000, 'ken'))
+
+
+// class 36
+
+function cutFruitPieces(fruit) {
+	return fruit * 4
 }
 
-console.log(yearsUntilRetirement(3000, 'ken'))
+function fruitProcessor(apples, oranges) {
+	const applePieces = cutFruitPieces(apples)
+	const orangePieces = cutFruitPieces(oranges)
+
+	const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of orange.`
+	return juice
+}
+
+console.log(fruitProcessor(50, 70))
