@@ -19,16 +19,28 @@
 
 // class 36
 
-function cutFruitPieces(fruit) {
-	return fruit * 4
+// function cutFruitPieces(fruit) {
+// 	return fruit * 4
+// }
+
+// function fruitProcessor(apples, oranges) {
+// 	const applePieces = cutFruitPieces(apples)
+// 	const orangePieces = cutFruitPieces(oranges)
+
+// 	const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of orange.`
+// 	return juice
+// }
+
+// console.log(fruitProcessor(50, 70))
+
+// class 37
+const calcAge = (birthday) => 400-birthday 
+
+const yearsUntilRetirement = (birthday, firstName) =>{
+	const age = 20- calcAge(birthday)
+	const retirement = 65 - age
+	// return retirement
+	return `${firstName} retires in ${retirement} years `
 }
 
-function fruitProcessor(apples, oranges) {
-	const applePieces = cutFruitPieces(apples)
-	const orangePieces = cutFruitPieces(oranges)
-
-	const juice = `Juice with ${applePieces} piece of apple and ${orangePieces} pieces of orange.`
-	return juice
-}
-
-console.log(fruitProcessor(50, 70))
+console.log(yearsUntilRetirement(30, 'ken'))
