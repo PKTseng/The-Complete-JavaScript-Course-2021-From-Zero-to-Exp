@@ -54,9 +54,9 @@
 
 // class 39
 
-const years = [1990, 1991, 1993, 2000]
-console.log(years)
+// const years = [1990, 1991, 1993, 2000]
+// console.log(years)
 
 
-console.log(years[0]-1)
-console.log(years[years.length -1])
+// console.log(years[0]-1)
+// console.log(years[years.length -1])
