@@ -34,20 +34,29 @@
 // console.log(fruitProcessor(50, 70))
 
 // class 37
-const calcAge = (birthday) => 1993-birthday 
+// const calcAge = (birthday) => 1993-birthday 
 
-const yearsUntilRetirement = (birthday, firstName) =>{
-	const age = calcAge(birthday)
-	const retirement = 70 - age
-	// return retirement
-	if (retirement > 0) {
-		console.log(`${firstName} retires in ${retirement} years`)
-		return retirement
-	} else {
-		console.log(`${firstName} has already retired`)
-		return -1
-	}
-	// return `${firstName} retires in ${retirement} years `
-}
+// const yearsUntilRetirement = (birthday, firstName) =>{
+// 	const age = calcAge(birthday)
+// 	const retirement = 70 - age
+// 	// return retirement
+// 	// return `${firstName} retires in ${retirement} years `
+// 	if (retirement > 0) {
+// 		console.log(`${firstName} retires in ${retirement} years`)
+// 		return retirement
+// 	} else {
+// 		console.log(`${firstName} has already retired`)
+// 		return -1
+// 	}
+// }
 
-console.log(yearsUntilRetirement(1988, 'ken'))
+// console.log(yearsUntilRetirement(1988, 'ken'))
+
+// class 39
+
+const years = [1990, 1991, 1993, 2000]
+console.log(years)
+
+
+console.log(years[0]-1)
+console.log(years[years.length -1])
