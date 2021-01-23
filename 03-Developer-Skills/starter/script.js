@@ -7,3 +7,5 @@ const x = 23;
 if ((x = 10)) console.log();
 
 const calcAg = (birthday) => 2020 - 1990;
+
+const vathrt = "car";
